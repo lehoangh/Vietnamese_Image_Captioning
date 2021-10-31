@@ -1,3 +1,4 @@
+https://github.com/sauravraghuvanshi/Udacity-Computer-Vision-Nanodegree-Program/tree/master/project_2_image_captioning_project
 0. Installation
 - Nên cài python environment (conda or virtualenv) và cài các gói cần thiết trong file requirements.txt như sau:
     pip install -r requirements.txt
