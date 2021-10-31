@@ -92,6 +92,7 @@ def main():
             loss.backward()
             optimizer.step()
 
+            # https://stackoverflow.com/questions/61988776/how-to-calculate-perplexity-for-a-language-model-using-pytorch
             # Print log info
             if i % config.log_step == 0:
                 print('Epoch [{}/{}], Step [{}/{}], Loss: {:.4f}, Perplexity: {:5.4f}'
