@@ -9,7 +9,6 @@ class Config(object):
     test_path = ''
     vocab_path = 'data/vocab.pkl'
     model_path = 'models/'
-    machine_output_path = 'data/machine_output.json'
     tokenizer = 'pyvi'
 
     optimizer = "adam"
