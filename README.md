@@ -45,3 +45,4 @@ Với bức ảnh `pickleball`, sinh mô tả `Người đàn_ông đang cầm v
 
 Mọi người có thể copy các ảnh vào thư mục `images_to_sample` rồi test thử với bước số 6 ở trên và chọn mô hình (checkpoints) muốn dùng ở file `config.py` với `encoder_path` và `decoder_path`.
 
+Models đã trained: https://drive.google.com/drive/folders/1-GfaseydLVCidHuM8qttxD_uYUydwzpK?usp=sharing
