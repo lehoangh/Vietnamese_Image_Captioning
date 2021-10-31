@@ -43,5 +43,5 @@ Với bức ảnh `bong_da_nguoi_lon`, sinh mô tả được với `Các cầu_
 Với bức ảnh `co_gai_hockey`, sinh mô tả `Một nữ vận_động_viên tennis đang chuẩn_bị đánh_bóng .`  
 Với bức ảnh `pickleball`, sinh mô tả `Người đàn_ông đang cầm vợt tennis đỡ bóng thấp .`  
 
-Mọi người có thể copy các ảnh vào thư mục `images_to_sample` rồi test thử với bước số 6 ở trên.
+Mọi người có thể copy các ảnh vào thư mục `images_to_sample` rồi test thử với bước số 6 ở trên và chọn mô hình (checkpoints) muốn dùng ở file `config.py` với `encoder_path` và `decoder_path`.
 
