@@ -207,5 +207,7 @@ cython_debug/
 ./data/resize2017/*
 ./data/train2017/*
 ./data/vocab.pkl
+./data/val2017/*
+./data/resized_val2017/*
 
 ./models/*
