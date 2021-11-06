@@ -4,11 +4,14 @@ import logging
 class Config(object):
     # Paths
     img_path = 'data/resized2017'
+    img_path_val = 'data/resized_val2017'
     train_path = 'data/annotations/uitviic_captions_train2017.json'
     val_path = 'data/annotations/uitviic_captions_val2017.json'
     test_path = ''
     vocab_path = 'data/vocab.pkl'
     model_path = 'models/'
+    # results: trên tập test, eval: trên tập eval
+    machine_output_path = 'data/results/captions_val2017_machineoutput_eval.json'
     tokenizer = 'pyvi'
 
     optimizer = "adam"
@@ -16,7 +19,9 @@ class Config(object):
     threshold = 1
     learning_rate = 0.001
     # num_epochs = 15
+    # Số lần epochs để huấn luyện lần đầu tiên
     num_epochs = 5
+    # Số lần epochs để huấn luyện các lần tiếp theo
     new_epochs = 10
     crop_size = 224
     batch_size = 128
@@ -30,9 +35,9 @@ class Config(object):
 
     log_step = 10
 
-    # Các mô hình encoder và decoder sử dụng để test ảnh mới
-    encoder_path = 'models/encoder-10-100.ckpt'
-    decoder_path = 'models/decoder-10-100.ckpt'
+    # Các mô hình encoder và decoder sử dụng để test ảnh mới, mô hình có loss thấp nhất
+    encoder_path = 'models/encoder-11-40-20211031_155008.ckpt'
+    decoder_path = 'models/decoder-11-40-20211031_155008.ckpt'
 
     """Setting file to logging"""
     def setup_logging():
