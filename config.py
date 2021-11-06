@@ -10,8 +10,9 @@ class Config(object):
     test_path = ''
     vocab_path = 'data/vocab.pkl'
     model_path = 'models/'
+    results_path = 'data/results/'
     # results: trên tập test, eval: trên tập eval
-    machine_output_path = 'data/results/captions_val2017_machineoutput_eval.json'
+    machine_output_path = results_path + 'captions_val2017_machineoutput_eval.json'
     tokenizer = 'pyvi'
 
     optimizer = "adam"
