@@ -49,6 +49,16 @@ Mọi người có thể copy các ảnh vào thư mục `images_to_sample` rồ
 
 Models đã trained: https://drive.google.com/drive/folders/1-GfaseydLVCidHuM8qttxD_uYUydwzpK?usp=sharing
 
+# Evaluation
+Bleu_1: 0.670
+Bleu_2: 0.508
+Bleu_3: 0.401
+Bleu_4: 0.315
+computing Rouge score...
+ROUGE_L: 0.597
+computing CIDEr score...
+CIDEr: 0.868
+
 # References
 [Vietnamese captioning dataset](https://sites.google.com/uit.edu.vn/uit-nlp/)
 [Paper](https://arxiv.org/pdf/2002.00175.pdf)
