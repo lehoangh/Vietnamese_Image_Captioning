@@ -59,6 +59,9 @@ ROUGE_L: 0.597
 computing CIDEr score...
 CIDEr: 0.868
 
+# Run on Jupyter Notebook
+Hãy xem file todo.ipynb để chạy các bước như bên trên.
+
 # References
 [Vietnamese captioning dataset](https://sites.google.com/uit.edu.vn/uit-nlp/)
 [Paper](https://arxiv.org/pdf/2002.00175.pdf)
